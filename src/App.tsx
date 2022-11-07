@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Button, Htag, P } from './components/index';
+import { Layout } from './Layout/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <div className="App">
+        <Htag tag='h2'>dagagdada</Htag>
+        <Button appearance='header'>+  Разместить объявление</Button>
+        <Button appearance='read'>Читать</Button>
+        <P size='m'>jkhgljhgljhfgljhglhj</P>
+      </div>
+
+    </Layout>
   );
 }
 
