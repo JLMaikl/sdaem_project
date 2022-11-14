@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -35,6 +40,7 @@ a {
   --grey-1: #F5F3FF;
   --grey-2: #F8F8F8;
   --grey-3: #F4F5FA;
+  --grey-4: #8291A3;
 
   --red: #EB5757;
   --pink: #EB5757;
@@ -43,6 +49,19 @@ a {
   --linear-1-hover: linear-gradient(90deg, #867CFC, #6929F3 94.5%);
   
   --font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 1185px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  
+    html {
+    font-size: 50%;
+  }
 }
 
 

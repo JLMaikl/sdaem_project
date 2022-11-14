@@ -1,0 +1,23 @@
+.paycard {
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 19.7%;
+}
+
+.detail {
+    margin-right: 1.5rem;
+}
+
+.details {
+    margin-right: 1.9rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .paycard {
+      margin-left: 0;
+  }
+}

@@ -11,11 +11,12 @@
     grid-template-areas: 
     "header header header"
     ". body ."
-    ". footer .";
+    "footer footer footer";
 }
 
 .header {
     grid-area: header;
+    background-color: red;
 }
 
 .body {

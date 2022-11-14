@@ -1,0 +1,113 @@
+.reference {
+    display: flex;    
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    list-style-type: none; 
+    padding: 0;
+    margin-right: 4.8%;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--black);
+}
+
+.link {
+    padding-bottom: 2.5rem;
+}
+
+.apartment {
+    list-style-type: none; 
+    padding: 0; 
+    
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: var(--black);
+    padding-bottom: 1.2rem;     
+}
+
+.apartments {
+    list-style-type: none; 
+    padding: 0;   
+    margin-right: 2.78%;
+}
+
+.apartmentOne {
+    display: none;
+}
+
+.cities {    
+    columns: 2;  
+    padding: 0;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    color: var(--grey-4);
+}
+
+.cityOne, .cityTwo {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cityOne {
+    margin-right: 5.3rem;
+}
+
+.news{
+    list-style-type: none;
+    padding: 0;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    color: var(--grey-4);
+}
+
+@media only screen and (max-width: 1080px) {
+
+  .reference {
+      justify-content: space-around;
+    }
+    
+  .links {
+    margin-right: 0;
+    line-height: 2.7rem;
+  }
+
+  .link {
+    padding-bottom: 0;
+  }
+
+  .apartments {
+      display: none;
+  }
+
+  .apartmentOne {
+      display: block;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+    .links {
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+  
+    .reference {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}

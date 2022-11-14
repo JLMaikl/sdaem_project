@@ -3,6 +3,6 @@ import { DetailedHTMLProps } from 'react';
 import { ReactNode } from 'react';
 
 export interface PProps extends DetailedHTMLProps<HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement>{
-    size:  'm';
+    size:  'm' | 's';
     children: ReactNode;
 }

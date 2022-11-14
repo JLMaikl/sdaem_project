@@ -7,6 +7,7 @@ export const P = ({ size, children, className, ...props }: PProps): JSX.Element 
         <p
             className={cn(styles.p, className, {
                 [styles.m]: size === 'm',                
+                [styles.s]: size === 's',                
             })}
             {...props}
         >
