@@ -1,0 +1,67 @@
+.upside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  width: 100%;
+  background-color: var(--grey-2); 
+  
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--grey-4);
+}
+
+.leftItems {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 5.56%;
+}
+
+.itemColorBlack {
+  color: var(--black);
+}
+
+.leftItem {
+  margin-right: 5.7rem;
+}
+
+.rightItems {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 5.56%;
+}
+
+.rightItem {
+  margin-right: 6.7rem;
+  position: relative;
+}
+
+.itemColorPurple {
+  font-weight: 500;
+  color: var(--purple);
+}
+
+.mapSvg {
+  margin-right: 5px;
+}
+
+.heartSvg {
+  width: 16px;
+  height: 14px;
+  margin-left: 11px; 
+  position: absolute;
+  top: 2px; 
+}
+
+@media only screen and (max-width: 1120px) {
+  /* .list {
+    padding-left: 0;
+  } */
+}

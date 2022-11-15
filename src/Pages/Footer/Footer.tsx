@@ -10,7 +10,7 @@ export const Footer = ({ className, ...props }: FooterProps): JSX.Element => {
     return (
         <footer className={cn(className, styles.footer)} {...props}>
             <div className={styles.footerLogo}>
-                <div className="footer-logo_img">
+                <div>
                     <img src="./image/logo.png" alt="logo" />
                     <p className={styles.footerLogoText}>СДАЁМ БАЙ</p>
                 </div>

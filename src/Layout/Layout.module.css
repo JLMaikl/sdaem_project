@@ -1,22 +1,21 @@
 .container {
-    max-width: 1440px;
+    max-width: 144rem;
     margin: 0 auto;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: auto minmax(320px, 1280px) auto;
-    grid-template-rows: auto 1fr auto; /*Растягивает body насаколько позволяет контент */
+    grid-template-columns: auto minmax(32rem, 128rem) auto;
+    grid-template-rows: auto 1fr auto; /*Растягивает body на сколько позволяет контент */
     min-height: 100vh; /*Растягивает содержимое на всю высоту экрана */
     grid-template-areas: 
-    "header header header"
-    ". body ."
-    "footer footer footer";
+        "header header header"
+        ". body ."
+        "footer footer footer";
 }
 
 .header {
-    grid-area: header;
-    background-color: red;
+    grid-area: header;    
 }
 
 .body {
