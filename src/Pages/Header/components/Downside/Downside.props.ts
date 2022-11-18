@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
 import { DetailedHTMLProps } from 'react';
 
-export interface SocialProps
+export interface DownsideProps
   extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {}
